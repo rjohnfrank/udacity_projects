@@ -18,7 +18,11 @@ import re
 import pprint
 
 
-OSMFILE = "./osm_files/philly.osm" 
+# The sample file is used here because the original file is too large for upload
+OSMFILE = "./osm_files/sample.osm" 
+# PLEASE NOTE: using the sample file, the vegan cuisine audit produces no results, due to a lack of vegan tags
+# However, the audit function can be tested by replacing "vegan" with "pizza" in (tag.attrib['v'] == "vegan") 
+
 
 EXPECTED = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road", 
             "Trail", "Parkway", "Commons", "Alley", "Broadway", "East", "West", "North", "South", 

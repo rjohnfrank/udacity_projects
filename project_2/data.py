@@ -22,7 +22,14 @@ import cerberus
 import schema
 
 
+# the sample file is used here because the original file is too large for upload
 OSM_PATH = "./osm_files/sample.osm" 
+# PLEASE NOTE: using the sample file, the vegan cuisine cleaning produces no results, due to a lack of vegan tags
+# However, the cleaning function can be tested by replacing 'vegan' with 'pizza' in two lines of code: 
+# in the clean_vegan function: if the_key == 'cuisine' and the_value == 'vegan'
+# and in the shape_element function: if tag.attrib['k'] == 'cuisine' and tag.attrib['v'] == 'vegan'
+# This change will of course produce erroneous csv files, but it will show that the code runs without error messages
+
 
 
 NODES_PATH = "./csv_files/nodes.csv"
@@ -64,7 +71,9 @@ def clean_street_name(street_name, mapping=MAPPING):
     if m:
         street_type = m.group()
         if street_type in mapping.keys():
+            print street_name
             street_name = re.sub(m.group(), mapping[m.group()], street_name)
+            print '----->', street_name 
     return street_name 
 
 def clean_vegan(the_key, the_value):
