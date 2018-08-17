@@ -4,7 +4,9 @@
 
 Here are the descriptions of all the files used in this GitHub project, in logical order: 
 
-wrangle_openstreetmap_data.html = the main document 
+wrangle_openstreetmap_data.html = the main document, which can be viewed using the following link:  
+
+[http://htmlpreview.github.io/?https://github.com/rjohnfrank/udacity_projects/blob/master/project_2/wrangle_openstreetmap_data.html](http://htmlpreview.github.io/?https://github.com/rjohnfrank/udacity_projects/blob/master/project_2/wrangle_openstreetmap_data.html)
 
 map_description.txt = the details of the OSM area chosen 
 
