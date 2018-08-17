@@ -1,0 +1,16 @@
+The following resources were used for assistance with this project: 
+The case study lesson that I completed, "Case Study: OpenStreetMap Data" 
+The Udacity forums (mostly focusing on the responses that the user Myles gave) 
+Stackoverflow.com for error message issues 
+I examined all of the following projects (in addition to the provided sample project), 
+and I did this for two reasons: 
+1) to see different examples of how I could potentially organize my project AND 
+2) to get ideas of different types of SQL queries that I could investigate
+However, I would like to point out that the Vegan angle was entirely my own idea
+https://medium.com/@williamkoehrsen/data-wrangling-with-python-and-sqlite-900d21bc5a53
+https://github.com/WillKoehrsen/Udacity-Data-Analyst-Nanodegree/tree/master/Project%20Final%20Versions
+https://github.com/Dalaska/Udacity-Data-Wrangling-Clean-OpenStreetMap
+https://github.com/lifengleaf/OpenStreetMap-Project-Udacity
+https://jameskao.me/data-wrangling-with-openstreetmap-and-mongodb/
+https://github.com/allanbreyes/udacity-data-science/tree/master/p2
+https://github.com/nehal96/Vancouver-OSM-Data-Wrangling

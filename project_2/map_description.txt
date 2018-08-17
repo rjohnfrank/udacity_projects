@@ -1,0 +1,14 @@
+For this project, I chose to use a customized area in Northern Philadelphia, 
+where some of my family is located:
+* Minimum Latitude: -75.2179
+* Maximum Latitude: -74.9439
+* Minimum Longitude: 39.8945
+* Maximum Longitude: 40.1883
+From this larger OSM file, I created a sample file using a modified version of the code
+that was provided in the "Project Description" (see sample.py) 
+The sample OSM file is composed of every twentieth top-level element (k = 20) 
+The original file size is: 203 MB
+The sample file size is: 10 MB
+Here is the link to the greater Philadelphia area at OpenStreetMap.com:
+https://www.openstreetmap.org/#map=11/40.0021/-75.1183
+
